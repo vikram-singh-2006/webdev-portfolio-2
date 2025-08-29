@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>My Website</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>HTML</h3>
+        <p>Building structured and semantic web pages.</p>
+      </div>
+      <div class="skill-card">
+        <h3>CSS</h3>
+        <p>Styling, responsive design, and animations.</p>
+      </div>
+      <div class="skill-card">
+        <h3>JavaScript</h3>
+        <p>Adding interactivity and dynamic features.</p>
+      </div>
+      <div class="skill-card">
+        <h3>React</h3>
+        <p>Basic components and state management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Website 1</h3>
+        <p>Description of the first project will go here.</p>
+        <a href="#" target="_blank" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Website 2</h3>
+        <p>Description of the second project will go here.</p>
+        <a href="#" target="_blank" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        I’m a passionate web developer who enjoys building clean, responsive, 
+        and user-friendly websites. I focus on details, creativity, and 
+        problem-solving — always aiming to bring elegant design and smooth 
+        functionality together. My approach is collaborative, adaptable, and 
+        constantly evolving as I learn new skills.
+      </p>
+      <ul>
+        <li>💡 Creative & detail-oriented</li>
+        <li>⚡ Strong problem-solving mindset</li>
+        <li>🤝 Collaborative & adaptive to feedback</li>
+        <li>🚀 Always learning and improving</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p class="tagline">Let’s work together!</p>
+
+    <div class="contact-cards">
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:yourname@example.com">yourname@example.com</a>
+      </div>
+
+      <div class="contact-card">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+911234567890">+91 12345 67890</a>
+      </div>
+
+      <div class="contact-card">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
